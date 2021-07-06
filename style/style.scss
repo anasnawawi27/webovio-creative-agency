@@ -1,0 +1,207 @@
+body{
+    font-family: "poppins";
+    margin:0;
+    padding:0;
+}
+
+@mixin header-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@mixin sub-title{
+    font-size: 16px;
+    color: #7A888E;
+}
+
+@mixin card-project{
+    margin-top: -130px;
+    box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+}
+
+.navbar{
+    .navbar-button-menu{
+        height: 40px;
+        width: 40px;
+        background-color: #F5F6F7;
+        line-height: 40px;
+        a{
+            color: black;
+        }
+    }
+}
+header{
+    margin-top: -71px;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    color: white;
+
+    .header-title{
+        p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+}
+
+.logo-bar{
+
+    .container{
+        width: 100%;
+        height: 165px;
+        background-color: #ffff;
+        margin-top: -90px;
+        box-shadow: 10px 10px 100px 10px rgba(122, 122, 122, 0.2);
+    }
+}
+
+.strategy-content{
+    .strategy-right{
+        margin-top: 150px;
+
+        h1{
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .strategy-desc{
+            font-size: 16px;
+            color:#6E7B80; 
+        }
+    }
+
+    .strategy-left{
+        padding-top: 150px;
+        box-shadow: 0px 60px 100px rgba(122, 122, 122, 0.1);
+    
+        .founder-say{
+            font-size: 24px;
+            font-style: italic;
+        }
+
+        .profile-desc{
+            line-height: 15px;
+        }
+
+
+        .profile-name{
+            font-size: 22px;
+            font-weight: bold;
+        }
+    
+    }
+}
+
+.awesome-project{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 16px;
+        color:#6E7B80; 
+    }
+}
+
+.first-project{
+    h1{
+        @include header-title;
+    }
+
+    .project-desc{
+
+        p{
+            @include sub-title;
+        }
+    }
+
+    .card{
+        
+        margin-left: 170px;
+        @include card-project;
+        .card-text{
+            font-style: italic;
+        }
+    }
+
+    .project-founder{
+        line-height: 10px;
+        .founder-name{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+.second-project{
+    margin-top: 120px;
+    position: relative;
+
+    h1{
+        @include header-title();
+    }
+
+    .project-desc{
+
+        p{
+            @include sub-title;
+        }
+    }
+
+    .card{
+        @include card-project;
+        position: absolute;
+        right: 100px;
+
+        .card-text{
+            font-style: italic;
+        }
+    }
+
+    .project-founder{
+        line-height: 10px;
+        .founder-name{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+.third-project{
+    margin-top: 210px;
+    h1{
+        @include header-title;
+    }
+
+    .project-desc{
+
+        p{
+            @include sub-title;
+        }
+    }
+
+    .card{
+        
+        margin-left: 170px;
+        @include card-project;
+        .card-text{
+            font-style: italic;
+        }
+    }
+
+    .project-founder{
+        line-height: 10px;
+        .founder-name{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

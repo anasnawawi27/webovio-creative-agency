@@ -1,0 +1,193 @@
+body {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .navbar-button-menu {
+  height: 40px;
+  width: 40px;
+  background-color: #F5F6F7;
+  line-height: 40px;
+}
+
+.navbar .navbar-button-menu a {
+  color: black;
+}
+
+header {
+  margin-top: -71px;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  background-image: url(../images/header.png);
+  background-size: cover;
+  color: white;
+}
+
+header .header-title p {
+  font-size: 14px;
+}
+
+header .header-title h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.logo-bar .container {
+  width: 100%;
+  height: 165px;
+  background-color: #ffff;
+  margin-top: -90px;
+  -webkit-box-shadow: 10px 10px 100px 10px rgba(122, 122, 122, 0.2);
+          box-shadow: 10px 10px 100px 10px rgba(122, 122, 122, 0.2);
+}
+
+.strategy-content .strategy-right {
+  margin-top: 150px;
+}
+
+.strategy-content .strategy-right h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.strategy-content .strategy-right .strategy-desc {
+  font-size: 16px;
+  color: #6E7B80;
+}
+
+.strategy-content .strategy-left {
+  padding-top: 150px;
+  -webkit-box-shadow: 0px 60px 100px rgba(122, 122, 122, 0.1);
+          box-shadow: 0px 60px 100px rgba(122, 122, 122, 0.1);
+}
+
+.strategy-content .strategy-left .founder-say {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.strategy-content .strategy-left .profile-desc {
+  line-height: 15px;
+}
+
+.strategy-content .strategy-left .profile-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.awesome-project {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.awesome-project h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.awesome-project p {
+  font-size: 16px;
+  color: #6E7B80;
+}
+
+.first-project h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.first-project .project-desc p {
+  font-size: 16px;
+  color: #7A888E;
+}
+
+.first-project .card {
+  margin-left: 170px;
+  margin-top: -130px;
+  -webkit-box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+          box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+}
+
+.first-project .card .card-text {
+  font-style: italic;
+}
+
+.first-project .project-founder {
+  line-height: 10px;
+}
+
+.first-project .project-founder .founder-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.second-project {
+  margin-top: 120px;
+  position: relative;
+}
+
+.second-project h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.second-project .project-desc p {
+  font-size: 16px;
+  color: #7A888E;
+}
+
+.second-project .card {
+  margin-top: -130px;
+  -webkit-box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+          box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+  position: absolute;
+  right: 100px;
+}
+
+.second-project .card .card-text {
+  font-style: italic;
+}
+
+.second-project .project-founder {
+  line-height: 10px;
+}
+
+.second-project .project-founder .founder-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.third-project {
+  margin-top: 210px;
+}
+
+.third-project h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.third-project .project-desc p {
+  font-size: 16px;
+  color: #7A888E;
+}
+
+.third-project .card {
+  margin-left: 170px;
+  margin-top: -130px;
+  -webkit-box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+          box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
+}
+
+.third-project .card .card-text {
+  font-style: italic;
+}
+
+.third-project .project-founder {
+  line-height: 10px;
+}
+
+.third-project .project-founder .founder-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
