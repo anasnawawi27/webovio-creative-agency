@@ -190,4 +190,30 @@ header .header-title h1 {
   font-size: 16px;
   font-weight: bold;
 }
+
+.deation-evaluation {
+  margin-top: 150px;
+}
+
+.deation-evaluation .big-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4D533C;
+}
+
+.deation-evaluation .list-deation .col-lg-3 {
+  padding-right: 50px;
+  line-height: 25px;
+}
+
+.deation-evaluation .list-deation h1 {
+  font-weight: 400;
+}
+
+.deation-evaluation .list-deation p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #7A888E;
+}
 /*# sourceMappingURL=style.css.map */
