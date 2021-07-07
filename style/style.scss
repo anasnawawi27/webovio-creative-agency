@@ -19,6 +19,29 @@ body{
     box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
 }
 
+@mixin footer-menu{
+    span{
+        font-size: 16px;
+        font-weight: 500;
+        color: #FFFF; 
+    }
+
+    li{
+        margin-top: 10px;
+        color: #B6C197;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@mixin sosial-media($background-color, $color){
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    background-color: $background-color;
+    color: $color;
+}
+
 .navbar{
     .navbar-button-menu{
         height: 40px;
@@ -125,7 +148,7 @@ header{
 
     .card{
         
-        margin-left: 170px;
+        margin-left: 100px;
         @include card-project;
         .card-text{
             font-style: italic;
@@ -190,7 +213,7 @@ header{
 
     .card{
         
-        margin-left: 170px;
+        margin-left: 100px;
         @include card-project;
         .card-text{
             font-style: italic;
@@ -208,6 +231,7 @@ header{
 
 .deation-evaluation{
     margin-top: 150px;
+    margin-bottom: 120px;
     .big-title{
         font-size: 36px;
         font-weight: bold;
@@ -229,4 +253,76 @@ header{
             color: #7A888E;
         }
     }
+}
+
+.something-amazing{
+    position: absolute;
+    width: 90%;
+    background-color: #fafafa;
+    box-shadow: 100px 130px 100px rgba(63, 63, 63, 0.2);
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+        color: #4D533C;
+    }
+}
+
+footer{
+    margin-top: 250px;
+    padding-top: 300px;
+    background-image: url('../images/footer.png');
+    background-size: cover;
+
+    p{
+        font-size: 16px;
+        color: #B6C197;
+    }
+
+    span{
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFF;
+    }
+
+    .service{
+        @include footer-menu();
+    }
+
+    .help-advice{
+        @include footer-menu();
+    }
+
+    .company{
+        @include footer-menu();
+    }
+
+    .get-in-touch{
+        @include footer-menu();
+
+        p{
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    }
+
+    .sosial-media{
+        .facebook{
+            @include sosial-media(#444A34,#5d6544);
+        }
+        .twitter{
+            margin-left: 10px;
+            @include sosial-media(#444A34, #5d6544);
+        }
+        .google{
+            margin-left: 10px;
+            @include sosial-media(#FFD723, #ffff);
+        }
+        .linkedin{
+            margin-left: 10px;
+            @include sosial-media(#444A34,#5d6544);
+        }
+    }
+    
 }

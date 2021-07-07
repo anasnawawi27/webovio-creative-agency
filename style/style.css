@@ -102,7 +102,7 @@ header .header-title h1 {
 }
 
 .first-project .card {
-  margin-left: 170px;
+  margin-left: 100px;
   margin-top: -130px;
   -webkit-box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
           box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
@@ -172,7 +172,7 @@ header .header-title h1 {
 }
 
 .third-project .card {
-  margin-left: 170px;
+  margin-left: 100px;
   margin-top: -130px;
   -webkit-box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
           box-shadow: 0px 10px 100px rgba(122, 122, 122, 0.2);
@@ -193,6 +193,7 @@ header .header-title h1 {
 
 .deation-evaluation {
   margin-top: 150px;
+  margin-bottom: 120px;
 }
 
 .deation-evaluation .big-title {
@@ -215,5 +216,131 @@ header .header-title h1 {
   font-weight: 500;
   font-size: 14px;
   color: #7A888E;
+}
+
+.something-amazing {
+  position: absolute;
+  width: 90%;
+  background-color: #fafafa;
+  -webkit-box-shadow: 100px 130px 100px rgba(63, 63, 63, 0.2);
+          box-shadow: 100px 130px 100px rgba(63, 63, 63, 0.2);
+}
+
+.something-amazing h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4D533C;
+}
+
+footer {
+  margin-top: 250px;
+  padding-top: 300px;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+}
+
+footer p {
+  font-size: 16px;
+  color: #B6C197;
+}
+
+footer span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFF;
+}
+
+footer .service span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFF;
+}
+
+footer .service li {
+  margin-top: 10px;
+  color: #B6C197;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer .help-advice span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFF;
+}
+
+footer .help-advice li {
+  margin-top: 10px;
+  color: #B6C197;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer .company span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFF;
+}
+
+footer .company li {
+  margin-top: 10px;
+  color: #B6C197;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer .get-in-touch span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFF;
+}
+
+footer .get-in-touch li {
+  margin-top: 10px;
+  color: #B6C197;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer .get-in-touch p {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+footer .sosial-media .facebook {
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  background-color: #444A34;
+  color: #5d6544;
+}
+
+footer .sosial-media .twitter {
+  margin-left: 10px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  background-color: #444A34;
+  color: #5d6544;
+}
+
+footer .sosial-media .google {
+  margin-left: 10px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  background-color: #FFD723;
+  color: #ffff;
+}
+
+footer .sosial-media .linkedin {
+  margin-left: 10px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  background-color: #444A34;
+  color: #5d6544;
 }
 /*# sourceMappingURL=style.css.map */
